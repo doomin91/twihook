@@ -1,4 +1,4 @@
-Twitch Streamer 전용 제공 기능으로서 실시간 채팅의 시각화 및 시청자 참여 컨텐츠를 제공하는 웹 서비스 
+Twitch Streamer 전용 제공 기능으로서 실시간 채팅의 시각화 및 시청자 참여 컨텐츠를 제공하는 웹 서비스 Twihook입니다.
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
