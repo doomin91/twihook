@@ -12,7 +12,7 @@
 [Twihook] Twitch Streamer 전용 제공 기능으로서 실시간 채팅의 시각화 및 시청자 참여 컨텐츠를 제공하는 웹 서비스 Twihook입니다.
 
 ## 기능구현단계
-[x] ㅎㅎ
+x ㅎㅎ
 ## Installation
 
 ```bash
