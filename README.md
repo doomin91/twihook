@@ -12,36 +12,6 @@
 [Twihook] Twitch Streamer 전용 제공 기능으로서 실시간 채팅의 시각화 및 시청자 참여 컨텐츠를 제공하는 웹 서비스 Twihook입니다.
 
 ## 기능구현단계
-- [ ] ??
+- [ ] 로그인
+- - [ ] 카카오 로그인
 - [x] ㅎㅎ
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
