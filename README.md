@@ -31,3 +31,4 @@
 - [ ] 성인물 관련 영상 자동 차단
 - [ ] 시청자 투표 게임
 - [ ] Ban Audio SnapShot 기능 ( https://github.com/sooftware/kospeech/issues/154 )
+- [ ] 누갓겜 투표 기능
