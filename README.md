@@ -32,3 +32,4 @@
 - [ ] 시청자 투표 게임
 - [ ] Ban Audio SnapShot 기능 ( https://github.com/sooftware/kospeech/issues/154 )
 - [ ] 누갓겜 투표 기능
+- [ ] 랜덤 이름 추첨기
