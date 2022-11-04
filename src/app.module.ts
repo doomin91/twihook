@@ -1,10 +1,12 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { MongooseModule } from '@nestjs/mongoose';
+import { TwitchModule } from './twitch/twitch.module';
+import { ConfigModule } from './config/config.module';
+import { BoardModule } from './board/board.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+  imports: [TwitchModule, ConfigModule, BoardModule, UsersModule],
+  controllers: [],
 })
 export class AppModule {}

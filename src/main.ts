@@ -7,9 +7,8 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('twihook API')
-    .setDescription('this is restfulApi web server')
+    .setDescription('twihook Framework')
     .setVersion('0.1')
-    .addTag('css')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
