@@ -1,4 +1,4 @@
 export interface Board {
-    title: number;
-    subject: number;
+    title: string;
+    subject: string;
 }
