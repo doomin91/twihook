@@ -12,7 +12,7 @@ import { APP_PIPE } from '@nestjs/core';
   providers: [                    // Nest Injector에 의해 인스턴스화 되고 해당 모듈에서 사용할 provider
     BoardService, 
     BoardRepository,
-    ...boardProviders, 
+    ...boardProviders,            // 레포지터리 패턴
     {
       provide: APP_PIPE,
       useClass: ValidationPipe,
