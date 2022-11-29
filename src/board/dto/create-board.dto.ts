@@ -7,5 +7,5 @@ export class CreateBoardDto {
     title: string;
     @IsNotEmpty()
     @ApiProperty()
-    subject: string;
+    subject: number;
 }
