@@ -1,11 +1,12 @@
 import { ApiProperty } from "@nestjs/swagger";
 import { IsNotEmpty } from "class-validator";
 
-export class CreateBoardDto {
+export class UpdateBoardDto {
     @IsNotEmpty()
+    @ApiProperty()
+    id: number;
     @ApiProperty()
     title: string;
-    @IsNotEmpty()
     @ApiProperty()
-    subject: number;
+    subject: string;
 }
