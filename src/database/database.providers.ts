@@ -5,10 +5,10 @@ export const databaseProviders = [{
     useFactory: async () => {
       const dataSource = new DataSource({
         type: 'postgres',
-        host: 'localhost',
+        host: '3.39.30.117',
         port: 5432,
         username: 'postgres',
-        password: '1234',
+        password: 'enddl1!530',
         database: 'twihook',
         entities: [
             __dirname + '/../**/*.entity{.ts,.js}',
